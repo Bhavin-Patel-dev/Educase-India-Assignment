@@ -5,7 +5,7 @@ function AccountSettings() {
   const { user } = useUser();
   const navigate = useNavigate();
 
-  // if no user, redirect to register
+  // if no user, redirect to create (Account)
   if (!user) {
     return (
       <div className="flex flex-col items-center justify-center h-screen gap-4">
