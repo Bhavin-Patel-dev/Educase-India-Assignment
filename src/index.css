@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer base {
+  /* Welcome Page */
+  .custom-height {
+    height: 80vh;
+  }
+}
